@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+.card {
+    background-color: white;
+    max-width: 90%;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 7%;
+    padding: 10px;
+    border-radius: 5px;
+}
+body {
+    background: url(img/fondo.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.img-card {
+    width: 100%;
+}
+.img-pokemon {
+    background-color: white;
+    max-width: 60%;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: -90px;
+}
+.fondo-carta {
+    width: 100%;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    border-radius: 5px 5px 0 0;
+} 
+.title {
+    max-width: 60%;
+    width: 98px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.hp-card, .exp-card {
+    color: rgb(149, 149, 149);
+}
+.exp-card {
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.footer-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+}
+.footer-card p {
+    margin: 4px 0;
+}
+.text-footer {
+    font-size: 13px;
+}
